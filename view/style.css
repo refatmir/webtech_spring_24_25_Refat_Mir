@@ -1,0 +1,98 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Reset and Basic Styles */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+    font-family: "Roboto Condensed", sans-serif;
+    
+}
+.container{
+    width: 1000px;
+    background-color:paleturquoise;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+    
+}
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    color: teal;
+}
+.header-contract{
+    float: right;
+    padding: 30px;
+}
+.header-contract a{
+ text-decoration: none;
+ color: teal;
+ font-weight: bold;
+}
+.header-contract a:hover{
+ text-decoration: underline;
+ color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+    color: chocolate;
+}
+/* personal section start*/
+#personal-section{
+
+}
+.content{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+width: 70%;
+float: left;
+}
+footer{
+background-color: black;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    color: azure;
+    text-align: center;
+    text-decoration: underline;
+}
+.author{
+    text-align: center;
+    border: 0 auto;
+}
+ul{
+    font-weight: bold;
+    color: teal;
+}
